@@ -1,0 +1,227 @@
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .logo-container {
+    padding: 50px 140px;
+  }
+  .contact-us {
+    margin-top: 60px;
+    padding: 50px 20px;
+  }
+  .banner-text {
+    margin-top: 120px;
+  }
+  .banner-text h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+  .banner-text h2 {
+    margin-top: 10px;
+    margin-left: 195px;
+    font-size: 40px;
+  }
+  .banner-text h2:after {
+    bottom: -14px;
+    left: -100px;
+    font-size: 125px;
+  }
+  .swiper1 {
+    max-width: 520px;
+    max-height: 180px;
+  }
+  .swiper1 .swiper-slide {
+    width: 260px;
+  }
+  .swiper1 .swiper-slide img {
+    width: 100% !important;
+  }
+  .swiper-button-next:after {
+    left: 51%;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .main-navbar ul li a {
+    padding: 20px 10px;
+  }
+  .banner-text {
+    margin-top: 80px;
+    margin-bottom: 140px;
+  }
+  .banner-text h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+  .banner-text h2 {
+    margin-top: 10px;
+    margin-left: 125px;
+    font-size: 35px;
+  }
+  .banner-text h2:after {
+    bottom: -14px;
+    left: -90px;
+    font-size: 110px;
+  }
+  .search-container .search-input {
+    font-size: 12px;
+    width: 130px;
+  }
+  .swiper1 {
+    display: none;
+  }
+  .footer-nav {
+    padding-left: 0;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .contact-info-and-search-container {
+    display: block;
+  }
+  .panel-group-container {
+    display: block;
+  }
+  .logo-contact-section .contact-us {
+    display: none;
+  }
+  .search-input-container {
+    width: 27%;
+  }
+  .logo-container {
+    padding: 25px 40px 0;
+  }
+  .banner-text h1 {
+    font-size: 38px;
+    margin-bottom: 0;
+  }
+  .banner-text h2 {
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 25px;
+  }
+  .banner-text h2:after {
+    bottom: -10px;
+    left: -68px;
+    font-size: 85px;
+  }
+  .right-col {
+    float: none;
+  }
+  .feature {
+    margin-bottom: 20px;
+    max-width: 800px;
+  }
+  .feature .feature-img img {
+    width: 80px;
+  }
+  .feature .feature-description h1 {
+    margin-bottom: 10px;
+  }
+  .what-about {
+    padding-bottom: 40px;
+  }
+  .feature-header {
+    margin-top: 40px;
+  }
+  .what-we-do:after {
+    height: 50px;
+  }
+  .feature-header {
+    display: none;
+  }
+  .header-container {
+    display: none;
+  }
+  .feature-header-2 {
+    display: block;
+    margin-bottom: 60px;
+  }
+  .what-we-do-items .feature {
+    margin-bottom: 25px;
+  }
+  .what-we-do-items .feature .feature-img img {
+    width: 80px;
+  }
+  .oval-block {
+    height: 60px;
+  }
+  .projects-section {
+    padding-bottom: 40px;
+  }
+  .project-category-selectors {
+    margin: 0 auto;
+    max-width: 600px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .category-selector {
+    margin: 0 2px;
+    padding: 5px 2px;
+  }
+  .project {
+    width: 49%;
+  }
+  .team-section {
+    padding-bottom: 40px;
+  }
+  .employee-cards {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  .employee-card {
+    width: 49%;
+    margin-bottom: 20px;
+  }
+  .employee-card .info-essential {
+    margin: 20px 0;
+  }
+  .employee-card .info-essential h2 {
+    margin-top: 10px;
+  }
+  #map {
+    height: 400px;
+  }
+  .footer-section .footer-container {
+    padding: 60px 0 10px;
+  }
+  .footer-section .soc-media a {
+    padding: 5px 10px;
+  }
+  .enter-email-container {
+    padding: 10px 15px;
+    margin-top: 5px;
+  }
+  .enter-email-container i {
+    margin: 0 5px 0 0;
+  }
+  .enter-email-container .email-input {
+    padding: 5px;
+  }
+  .enter-email-container .join-btn {
+    padding: 0px 21px;
+  }
+  .footer-nav {
+    float: none;
+  }
+  .copyright-row {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .copyright {
+    padding-top: 10px;
+    border-top: 1px solid #414344;
+  }
+}
+/* Extra Small Devices, Phones */
+/* Double Extra Small Devices, Phones */
