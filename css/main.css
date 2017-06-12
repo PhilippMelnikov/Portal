@@ -16,6 +16,9 @@ textarea:focus,
 input:focus {
   outline: none;
 }
+.xs-visible {
+  display: none;
+}
 .top-navbar {
   background-color: #eceef4;
 }
@@ -752,6 +755,10 @@ section {
   color: #fff;
   font-size: 17px;
   float: right;
+  text-decoration: none;
+}
+.panel-group-container .panel-heading .collapse-menu-button:hover {
+  text-decoration: none;
 }
 .panel-group .my-panel {
   -webkit-border-radius: 0px;
@@ -765,6 +772,7 @@ section {
 }
 .panel-collapse .list-group {
   text-transform: uppercase;
+  background-color: #efefef;
 }
 .panel-collapse .list-group .list-group-item {
   background-color: #efefef;
@@ -844,4 +852,54 @@ section {
   text-align: center;
   font-size: 16px;
   font-weight: 300;
+}
+.team-swiper {
+  display: none;
+}
+.project-categories-panel-container {
+  display: none;
+}
+.projects-swiper {
+  display: none;
+}
+.counterfeit {
+  content: "";
+  height: 0px;
+  width: 100%;
+}
+.main-menu {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.floating-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  z-index: 100;
+  border-bottom: 1px solid #ccc;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.accordion-menu {
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.accordion-menu .panel-group {
+  margin-bottom: 0;
+}
+.accordion-menu-container {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.accordion-menu.floating-menu {
+  width: 100%;
+}
+.accordion-menu.floating-menu .panel-group .my-panel .my-panel-heading {
+  margin-bottom: -0.9px;
 }

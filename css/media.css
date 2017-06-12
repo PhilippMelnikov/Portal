@@ -12,8 +12,8 @@
     margin-top: 120px;
   }
   .banner-text h1 {
-    font-size: 50px;
     margin-bottom: 0;
+    font-size: 50px;
   }
   .banner-text h2 {
     margin-top: 10px;
@@ -33,14 +33,20 @@
     width: 260px;
   }
   .swiper1 .swiper-slide img {
-    width: 100% !important;
+    width: 260px !important;
   }
   .swiper-button-next:after {
     left: 51%;
   }
+  .what-we-do:after {
+    height: 100px;
+  }
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .right-col {
+    float: none;
+  }
   .main-navbar ul li a {
     padding: 20px 10px;
   }
@@ -49,8 +55,8 @@
     margin-bottom: 140px;
   }
   .banner-text h1 {
-    font-size: 50px;
     margin-bottom: 0;
+    font-size: 50px;
   }
   .banner-text h2 {
     margin-top: 10px;
@@ -63,8 +69,14 @@
     font-size: 110px;
   }
   .search-container .search-input {
-    font-size: 12px;
     width: 130px;
+    font-size: 12px;
+  }
+  .feature {
+    max-width: 1000px;
+  }
+  .feature-header {
+    max-width: 540px!important;
   }
   .swiper1 {
     display: none;
@@ -72,9 +84,18 @@
   .footer-nav {
     padding-left: 0;
   }
+  .employee-card .info-essential h2 {
+    font-size: 15px;
+  }
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .top-navbar {
+    display: none !important;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
   .contact-info-and-search-container {
     display: block;
   }
@@ -90,9 +111,12 @@
   .logo-container {
     padding: 25px 40px 0;
   }
+  .banner-text {
+    margin-bottom: 150px;
+  }
   .banner-text h1 {
-    font-size: 38px;
     margin-bottom: 0;
+    font-size: 38px;
   }
   .banner-text h2 {
     margin-top: 10px;
@@ -104,12 +128,9 @@
     left: -68px;
     font-size: 85px;
   }
-  .right-col {
-    float: none;
-  }
   .feature {
-    margin-bottom: 20px;
     max-width: 800px;
+    margin-bottom: 20px;
   }
   .feature .feature-img img {
     width: 80px;
@@ -136,6 +157,12 @@
     display: block;
     margin-bottom: 60px;
   }
+  .feature-header-2 .header img {
+    width: 120px;
+  }
+  .feature-header-2 .header .flask {
+    width: 110px;
+  }
   .what-we-do-items .feature {
     margin-bottom: 25px;
   }
@@ -146,15 +173,16 @@
     height: 60px;
   }
   .projects-section {
+    overflow-x: hidden !important;
     padding-bottom: 40px;
   }
   .project-category-selectors {
-    margin: 0 auto;
-    max-width: 600px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    max-width: 600px;
+    margin: 0 auto;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
@@ -175,12 +203,16 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
   }
   .employee-card {
     width: 49%;
+    max-width: 300px;
     margin-bottom: 20px;
   }
   .employee-card .info-essential {
@@ -188,6 +220,7 @@
   }
   .employee-card .info-essential h2 {
     margin-top: 10px;
+    font-size: 17px;
   }
   #map {
     height: 400px;
@@ -199,8 +232,11 @@
     padding: 5px 10px;
   }
   .enter-email-container {
-    padding: 10px 15px;
+    width: 93%;
     margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 15px;
   }
   .enter-email-container i {
     margin: 0 5px 0 0;
@@ -222,6 +258,178 @@
     padding-top: 10px;
     border-top: 1px solid #414344;
   }
+  .project-categories-panel-container {
+    display: none;
+  }
 }
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .team-swiper {
+    display: block;
+  }
+  .project-categories-panel-container {
+    display: block;
+  }
+  .projects-swiper {
+    display: block;
+  }
+  .xs-obsolete {
+    display: none;
+  }
+  .xs-visible {
+    display: block;
+  }
+  .feature-header {
+    display: none!important;
+  }
+  .feature {
+    display: block;
+  }
+  .feature .head {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .feature .head img {
+    width: 80px;
+  }
+  .feature .head .text {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .contact-info-and-search-container a.contact-info {
+    position: relative;
+    margin-right: 5px;
+    padding-left: 15px;
+  }
+  .contact-info-and-search-container a.contact-info i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateY(-32%);
+        -ms-transform: translateY(-32%);
+            transform: translateY(-32%);
+  }
+  .contact-info-and-search-container .phone {
+    display: none;
+  }
+  .search-input-container {
+    width: 40%;
+  }
+  .contact-info i {
+    margin-top: 8px;
+  }
+  .banner-text {
+    margin-bottom: 100px;
+  }
+  .banner-text h1 {
+    margin-bottom: -10px;
+    font-size: 24px;
+  }
+  .banner-text h2 {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 16px;
+  }
+  .banner-text h2:after {
+    bottom: -4px;
+    left: -40px;
+    font-size: 45px;
+  }
+  .feature-header-2 .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .what-we-do-items .feature .head img {
+    margin-bottom: -10px;
+  }
+  .what-we-do-items .feature .head .chair-image {
+    margin-bottom: -25px;
+  }
+  .chair-image {
+    margin-bottom: -20px;
+  }
+  .categories-group {
+    border: 1px solid #c5c5c5;
+    background-color: #efefef !important;
+  }
+  .categories-group h4 {
+    color: #c5c5c5;
+  }
+  .categories-group a i {
+    color: #c5c5c5;
+  }
+  .project-category-selectors {
+    display: none;
+  }
+  .project-categories-panel-container {
+    margin-bottom: 20px;
+    padding-top: 0;
+  }
+  .feature-header-2 {
+    margin-bottom: 40px;
+  }
+  .swiper-pagination {
+    -webkit-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+  }
+  .swiper-pagination-bullet-active {
+    width: 12px;
+    height: 12px;
+    -webkit-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    -webkit-transform: translateY(2px);
+        -ms-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  .categories-buttons-group li a {
+    color: #c5c5c5;
+  }
+  .swiper-container {
+    height: 280px;
+  }
+  .project {
+    width: 220px;
+    margin: 0 auto;
+  }
+  .swiper-pagination {
+    bottom: 10px;
+  }
+  .team-swiper {
+    height: 420px;
+  }
+  .team-swiper .employee-card {
+    width: 280px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .footer-section {
+    padding-top: 0px;
+  }
+  .footer-section .soc-media {
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+  .footer-section .footer-container {
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+}
 /* Double Extra Small Devices, Phones */
